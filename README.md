@@ -1,8 +1,12 @@
-# Rate Playing iTunes Track [ alfred workflow ]
+# Rate Playing iTunes Track _[ alfred workflow ]_
 
 _This is an extremely early version of the workflow, it's not nearly ready to be used yet._
 
+## Description
+
 This workflow will allow you to toggle whether the currently playing iTunes track is loved, dislike it and set the star rating, it also displayed the loved status and rating when you pass Alfred the keyword.
+
+## Existing Workflows
 
 There are two existing workflows that mostly cover these functions [Love in iTunes](http://www.packal.org/workflow/love-itunes) and [Rate iTunes Track](https://github.com/dklem/Alfred2-Rate-iTunes-Track) and have heavily influenced my own. However, I wanted to write my own for a couple of reasons:
 
@@ -20,7 +24,7 @@ Once I've finished with the first version of this workflow I will probably rewri
 ## Version 1.0 Todo
 
 - [ ] Find out if you can set node icons to a path rather than having potentially duplicate icons included by using the node's guid.
-- [ ] Love [ action ]
+- [ ] Love _[ action ]_
 	- [ ] Finish love script filter.
 		- [ ] Determine how to set a secondary keyword without unnecessary duplication.
 		- [ ] Switch to an actual JSON encoder rather than generating a gross manual string.
@@ -30,7 +34,7 @@ Once I've finished with the first version of this workflow I will probably rewri
 	- [ ] Rewrite the script action.
 		- [ ] Allow _dislike_ option.
 		- [ ] Allow Alfred variable option for whether _love_ should rate track with five stars and _dislike_ should rate it with 1/2 star.
-- [ ] Set star rating [ action ]
+- [ ] Set star rating _[ action ]_
 	- [ ] ...
 	- [ ] Decide if I should have external triggers for half star ratings. This might be useful for mapping to [my Karabiner actions](https://github.com/christopherdwhite/karabiner-configuration) with a modifier key.
 - [ ] Optimize all finished icons.
