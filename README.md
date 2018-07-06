@@ -29,6 +29,7 @@ Once I've finished with the first version of this workflow I will probably rewri
 		- [ ] Determine how to set a secondary keyword without unnecessary duplication.
 		- [ ] Switch to an actual JSON encoder rather than generating a gross manual string.
 		- [ ] Determine how to properly access workflow environment variables inside an AppleScript file or consider finalizing the script inside of Alfred's Script Filter.
+		- [ ] Determine how to add icon to notification.
 		- [ ] Refactor as an object-oriented design, this should be a fairly minimal change.
 		- [ ] Add arguments to pass to run script action.
 	- [ ] Rewrite the script action.
