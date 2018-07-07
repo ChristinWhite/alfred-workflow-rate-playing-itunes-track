@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>4AFC2626-BEB8-4D01-BF36-9B3C40D5C69D</string>
+				<string>D52DADFC-B1D7-4B63-8E46-E6ECE65C1B97</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -52,6 +52,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>2E5C0307-1E38-44AF-ACF0-F029391069F2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D52DADFC-B1D7-4B63-8E46-E6ECE65C1B97</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>4AFC2626-BEB8-4D01-BF36-9B3C40D5C69D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -174,6 +187,21 @@
 			<string>4AFC2626-BEB8-4D01-BF36-9B3C40D5C69D</string>
 			<key>version</key>
 			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>love</string>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D52DADFC-B1D7-4B63-8E46-E6ECE65C1B97</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -412,14 +440,14 @@ echo -n $query</string>
 			<string>Early placeholder until I get script filter Finished.
 Love should rate 5 stars</string>
 			<key>xpos</key>
-			<integer>450</integer>
+			<integer>590</integer>
 			<key>ypos</key>
 			<integer>150</integer>
 		</dict>
 		<key>4AFC2626-BEB8-4D01-BF36-9B3C40D5C69D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>170</integer>
+			<integer>240</integer>
 			<key>ypos</key>
 			<integer>150</integer>
 		</dict>
@@ -510,6 +538,13 @@ This action won't require remote actions as they're already built into the iTune
 			<integer>30</integer>
 			<key>ypos</key>
 			<integer>840</integer>
+		</dict>
+		<key>D52DADFC-B1D7-4B63-8E46-E6ECE65C1B97</key>
+		<dict>
+			<key>xpos</key>
+			<integer>170</integer>
+			<key>ypos</key>
+			<integer>180</integer>
 		</dict>
 	</dict>
 	<key>version</key>
