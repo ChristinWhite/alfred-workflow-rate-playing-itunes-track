@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>D52DADFC-B1D7-4B63-8E46-E6ECE65C1B97</string>
+				<string>4AFC2626-BEB8-4D01-BF36-9B3C40D5C69D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -52,19 +52,6 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>2E5C0307-1E38-44AF-ACF0-F029391069F2</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>D52DADFC-B1D7-4B63-8E46-E6ECE65C1B97</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>4AFC2626-BEB8-4D01-BF36-9B3C40D5C69D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -129,17 +116,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>applescript</key>
-				<string>on alfred_script(q)	tell application "iTunes"		if exists current track then			set currentTrackName to name of current track			if loved of the current track is true then				set loved of current track to false				display notification "“" &amp; currentTrackName &amp; "” unloved ♡."			else				set loved of the current track to true				display notification "“" &amp; currentTrackName &amp; "” loved ♥."			end if		else			display notification "No track is currently playing."		end if	end tellend alfred_script</string>
-				<key>cachescript</key>
+				<key>concurrently</key>
 				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>/usr/bin/osascript ./Script.applescript</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.applescript</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>2E5C0307-1E38-44AF-ACF0-F029391069F2</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -187,21 +182,6 @@
 			<string>4AFC2626-BEB8-4D01-BF36-9B3C40D5C69D</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string>love</string>
-				<key>variables</key>
-				<dict/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>D52DADFC-B1D7-4B63-8E46-E6ECE65C1B97</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -538,13 +518,6 @@ This action won't require remote actions as they're already built into the iTune
 			<integer>30</integer>
 			<key>ypos</key>
 			<integer>840</integer>
-		</dict>
-		<key>D52DADFC-B1D7-4B63-8E46-E6ECE65C1B97</key>
-		<dict>
-			<key>xpos</key>
-			<integer>170</integer>
-			<key>ypos</key>
-			<integer>180</integer>
 		</dict>
 	</dict>
 	<key>version</key>
